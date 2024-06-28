@@ -1,0 +1,82 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+#stopwatchtime{
+    color: white;
+    border: 1px solid white;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 30px;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.buttons button{
+    height: 40px;
+    width: 70px;
+    cursor: pointer;
+    border-radius: 1rem;
+    font-weight: bold;
+}
+.buttons button:hover{
+    color: rgb(221, 239, 228);
+}
+#start{
+    border: 1px solid white;
+    background-color: green;
+}
+#lap{
+    border: 1px solid white;
+    background-color: rgb(44, 159, 177);
+}
+#reset{
+    display: none;
+    border: 1px solid white;
+    background-color: rgb(44, 73, 177);
+}
+#stop{
+    display: none;
+    border: 1px solid white;
+    background-color: rgb(197, 51, 51);
+}
+#laps{
+
+    height: auto;
+    max-height: 150px;
+    padding: 10px;
+    overflow: auto;
+}
+#laps li{
+    color: white;
+    font-size: 22px;
+    padding: 10PX;
+}
+h1{
+    color: rgb(166, 206, 162);
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
